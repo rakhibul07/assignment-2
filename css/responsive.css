@@ -1,0 +1,9 @@
+ 
+@media screen and (max-width:576px) {
+    .online-games-container{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    
+}
