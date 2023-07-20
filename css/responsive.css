@@ -11,7 +11,7 @@ margin-bottom: 0px;
 .banner-container{
     flex-direction: column-reverse;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 60px;
   
 }
 .banner-container img {
@@ -33,17 +33,52 @@ padding: 10px;
 .banner-item{
     font-size: 1.2rem;
 }
-.card{
-    height: 1000px;
-   flex-direction: column;
-   margin-top: 100px;
-   margin-bottom: 200px;
-}
+
 .btn-1, .btn-2{
     padding: 10px;
+}
+.online-container{
+    margin-top: 10px;
+    margin-bottom: 1440px;
+}
+.card{
+    flex-direction: column;
+    padding: 10px;
+}
+.card-item p{
+    font-size: 10px;
+   line-break: normal;
+}
+.text h3{
+    font-size: 25px;
+    padding: 5px
+}
+.text p{
+    font-size: 12px;
+    padding: 5px;
+}
+.play-container{
+   flex-direction: column;
+   padding-top: 50px;
+  
+}
+#online-title{
+font-size: 22px;
+padding: 5px;
+}
+#online-p{
+font-size: 12px;
+}
+.box-1{
+    margin-bottom: 10px;
+}
+.man{
+width: 300px;
+padding-top: 0;
 }
 
 
     }
+
 
     
