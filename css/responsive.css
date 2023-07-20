@@ -76,9 +76,24 @@ font-size: 12px;
 width: 300px;
 padding-top: 0;
 }
+.online-games-container {
+
+    grid-template-columns: repeat(3, 1fr);
+margin-left: 5px;
 
 
     }
-
-
+    .online-games-container img{
+        width: 10px;
+        padding: 5px;
+       
+    }
+    .online-games-container p{
+        font-size: 7px;
+    }
+    .new {
+      margin-left: 10px;
+    }
     
+
+}
