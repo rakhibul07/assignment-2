@@ -24,6 +24,15 @@ width: 70%;
 padding: 10px;
 
 }
+.goat{
+    font-size: 4rem;
+}
+.banner-title{
+    font-size: 1.5rem;
+}
+.banner-item{
+    font-size: 1.2rem;
+}
 .card{
     height: 1000px;
    flex-direction: column;
