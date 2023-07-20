@@ -68,6 +68,9 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+background-image: url('/images/banner.png');
+background-position: left;
+background-repeat: no-repeat;
 
 }
 
@@ -94,13 +97,10 @@ body {
 
 .banner-item {
     color: #534C64;
-
     font-size: 1.25rem;
 
     font-weight: 500;
-    /* position: relative;
-    left: 200px;
-     */
+  
 text-align: center;
 }
 
