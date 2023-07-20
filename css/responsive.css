@@ -1,9 +1,40 @@
  
-@media screen and (max-width:576px) {
-    .online-games-container{
-        grid-template-columns: repeat(3, 1fr);
-        
+@media screen and (max-width: 576px) {
+.navbar-container, .parent, .col-2{
+    flex-direction: column ;
+}
+.navbar-container{
+margin: 100px auto ;
+margin-bottom: 0px;
+
+}
+.banner-container{
+    flex-direction: column-reverse;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  
+}
+.banner-container img {
+    width: 450px;
+    padding-right: 250px;
+    margin-top: 40px;
+}
+.banner-text{
+width: 70%;
+padding: 10px;
+
+}
+.card{
+    height: 1000px;
+   flex-direction: column;
+   margin-top: 100px;
+   margin-bottom: 200px;
+}
+.btn-1, .btn-2{
+    padding: 10px;
+}
+
+
     }
 
     
-}
